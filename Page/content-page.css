@@ -54,7 +54,7 @@
 }
 
 .white-container-right span {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     margin-right: 30px;
 }
