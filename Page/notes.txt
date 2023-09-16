@@ -1,0 +1,4 @@
+- αποριες σε positioning
+- αποριες σε flexbox
+- reset / normalise CSS 
+- επισκοπηση πανω display: block - inline block - inline - flexbox

@@ -70,3 +70,18 @@
 .nav-link:first-child {
     color: lightgreen;
 }
+
+.wallpapper {
+    max-height: 800px;
+}
+
+.wallpapper_background {
+    position: relative;
+}
+
+.wallpapper_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
