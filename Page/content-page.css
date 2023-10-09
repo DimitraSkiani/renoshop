@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
 }
@@ -121,7 +125,6 @@ body {
     color: black;
     padding: 10px 20px;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
     font-size: 20px;
     text-transform: uppercase;
@@ -150,14 +153,13 @@ body {
 
 .buy-button::before {
     bottom: -10px;
-    right: -10px;
+    right: -9px;
     background-color: black;
-
 }
 
 .buy-button::after {
     top: -10px;
-    right: -10px;
+    right: -9px;
     background-color: black;
 }
 
@@ -173,13 +175,98 @@ body {
 }
 
 
-.best_seller_container {
+.best_sellers_text {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    padding-top: 270px;
+    padding-bottom: 270px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
-.best_seller_column {
+.text_best_tile {
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+}
+
+.text_best_subtile {
+    font-size: 15px;
+    color: green;
+    font-weight: bold;
+}
+
+.best_sellers_row_up {
+    display: flex;
+}
+
+.best_sellers_row_down {
+    display: flex;
+}
+
+.best_sellers_column {
     flex: 1;
-    border: 1px solid #ccc;
-    padding: 10px;
+    display: flex;
+}
+
+.best_sellers_column:last-of-type {
+    flex: 3;
+}
+
+.best_seller_sample {
+    flex: 3;
+    display: inline-block;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.best_seller_down_sample {
+    flex: 3;
+    display: inline-block;
+    text-align: center;
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.best_seller_sample_subtitle {
+    color: green;
+}
+
+.best_seller_image {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.best_seller_icon {
+    background-color: green;
+    padding: 3px;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    transform: translateY(150%);
+    display: block;
+    margin: 5px;
+}
+
+.best_seller_icons {
+    display: inline-block;
+}
+
+.best_seller_down_sample_title {
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+
+}
+
+.best_seller_down_sample_subtitle {
+    font-size: 12px;
+    color: grey;
+
 }
