@@ -181,8 +181,6 @@ body {
     justify-content: space-between;
     padding-top: 270px;
     padding-bottom: 270px;
-    padding-left: 50px;
-    padding-right: 50px;
 }
 
 .text_best_tile {
@@ -199,10 +197,15 @@ body {
 
 .best_sellers_row_up {
     display: flex;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .best_sellers_row_down {
     display: flex;
+    background-color: lightgrey;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .best_sellers_column {
@@ -218,19 +221,19 @@ body {
     flex: 3;
     display: inline-block;
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    position: relative;
+}
+
+.best_seller_sample:hover .best_seller_icons {
+    visibility: visible;
 }
 
 .best_seller_down_sample {
-    flex: 3;
-    display: inline-block;
-    text-align: center;
-    background-color: lightgrey;
     display: flex;
+    flex-direction: column;
+    text-align: center;
     align-items: center;
     justify-content: center;
-
 }
 
 .best_seller_sample_subtitle {
@@ -245,17 +248,19 @@ body {
 
 .best_seller_icon {
     background-color: green;
-    padding: 3px;
-    top: -50px;
-    left: 50%;
-    transform: translateX(-50%);
-    transform: translateY(150%);
     display: block;
-    margin: 5px;
+    margin-bottom: 3px;
+    padding: 2px;
 }
 
 .best_seller_icons {
     display: inline-block;
+    visibility: hidden;
+    padding: 3px;
+    top: 0px;
+    right: 0px;
+    display: block;
+    position: absolute;
 }
 
 .best_seller_down_sample_title {
