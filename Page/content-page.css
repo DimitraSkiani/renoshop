@@ -202,10 +202,12 @@ body {
 }
 
 .best_sellers_row_down {
+    padding-top: 10px;
     display: flex;
     background-color: lightgrey;
     padding-left: 60px;
     padding-right: 60px;
+    padding-bottom: 10px;
 }
 
 .best_sellers_column {
