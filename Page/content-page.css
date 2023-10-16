@@ -289,3 +289,140 @@ body {
     color: grey;
 
 }
+
+.collection_marketing_images_container {
+    display: flex;
+    flex-direction: row;
+    background-color: #CCCCCC;
+    justify-content: center;
+    align-items: center;
+}
+
+.collection_marketing_images {
+    flex: 1;
+}
+
+
+
+.feature_products_row {
+    display: flex;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: white;
+}
+
+
+.feature_products_column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.feature_products:first-of-type {
+    flex: 3;
+}
+
+.feature_products_text {
+    display: flex;
+    flex-direction: column;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+.feature_products_sample {
+    flex: 3;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+
+.feature_products_sample:hover .feature_products_icons {
+    visibility: visible;
+}
+
+.feature_products_icons {
+    display: inline-block;
+    visibility: hidden;
+    padding: 3px;
+    top: 0px;
+    right: 0px;
+    display: block;
+    position: absolute;
+}
+
+.feature_products_icon {
+    background-color: green;
+    display: block;
+    margin-bottom: 3px;
+    padding: 2px;
+}
+
+.feature_products_subtitle {
+    color: green;
+}
+
+.footer_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.special_accounts_container {
+    display: flex;
+}
+
+.footer_info {
+    display: flex;
+}
+
+.special_accounts {
+    flex: 2;
+    display: flex;
+
+}
+
+.special_accounts_brands {
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+}
+
+.special_accounts_brands img {
+    width: 130px;
+    height: 130px;
+}
+
+.social_media {
+    display: flex;
+}
+
+.social_media_text {
+    flex: 1;
+    display: flex;
+}
+
+.social_media_icons {
+    flex: 1;
+    display: flex;
+}
+
+.footer_info_information {
+    flex: 1;
+    display: flex;
+}
+
+.footer_info_my_account {
+    flex: 1;
+    display: flex;
+}
+
+.footer_info_help {
+    flex: 1;
+    display: flex;
+}
+
+.footer_info_contact {
+    flex: 1;
+    display: flex;
+}
