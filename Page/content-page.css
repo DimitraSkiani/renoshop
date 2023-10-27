@@ -187,9 +187,7 @@ img {
 .best_sellers_text {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    padding-top: 270px;
-    padding-bottom: 270px;
+    justify-content: center;
 }
 
 .text_best_tile {
@@ -206,8 +204,7 @@ img {
 
 .best_sellers_row_up {
     display: flex;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding: 50px 60px;
 }
 
 .best_sellers_row_down {
@@ -229,12 +226,11 @@ img {
 }
 
 .best_seller_sample {
-    flex: 3;
     display: inline-block;
     text-align: center;
     position: relative;
-
-    >img {
+    padding: 15px 0;
+    > img {
         object-fit: cover;
     }
 }
@@ -300,6 +296,7 @@ img {
     font-size: 25px;
     color: black;
     font-weight: bold;
+    margin-top: 20px;
 }
 
 .best_seller_down_sample_subtitle {
@@ -310,7 +307,7 @@ img {
 
 .collection_marketing_images_container {
     display: flex;
-    flex-direction: row;
+    /*flex-direction: row;  By default display flex comes with flex direction row */
     background-color: #CCCCCC;
     justify-content: center;
     align-items: center;
@@ -336,6 +333,7 @@ img {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin-bottom: 15px;
 }
 
 .feature_products:first-of-type {
@@ -443,6 +441,8 @@ img {
 .special_accounts_brands img {
     width: 130px;
     height: 130px;
+    aspect-ratio: 1/1;
+    object-fit: contain;
 }
 
 .social_media {
