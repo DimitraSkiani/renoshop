@@ -13,7 +13,19 @@ img {
     width: auto;
 }
 
+li {
+    display: block;
+}
+
+ul {
+    padding: 0;
+}
+
 /** CUSTOM CODE **/
+.footer_info_information_header {
+    display: block;
+
+}
 
 .black-container {
     color: white;
@@ -230,7 +242,8 @@ img {
     text-align: center;
     position: relative;
     padding: 15px 0;
-    > img {
+
+    >img {
         object-fit: cover;
     }
 }
@@ -386,9 +399,13 @@ img {
 
 .special_accounts_container {
     display: flex;
-
     flex-direction: row;
+}
 
+.footer {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footer_info {
@@ -402,8 +419,7 @@ img {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding: 35px;
-
+    padding: 35px 0;
 }
 
 .special_accounts_inner {
@@ -431,22 +447,37 @@ img {
     margin-top: 20px;
 }
 
+.special_accounts_form_btn {
+    background-color: green;
+    border: 1px solid green;
+    padding: 12px;
+    color: white;
+    font-size: 12px;
+}
+
+.special_accounts_form_input {
+    padding: 10px;
+    width: 300px;
+}
+
 .special_accounts_brands {
     flex: 1;
     display: flex;
     flex-direction: row;
-
+    align-items: center;
 }
 
 .special_accounts_brands img {
-    width: 130px;
-    height: 130px;
+    width: 170px;
+    height: 170px;
     aspect-ratio: 1/1;
     object-fit: contain;
 }
 
 .social_media {
     display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .social_media_text {
@@ -457,11 +488,16 @@ img {
 .social_media_icons {
     flex: 1;
     display: flex;
+    justify-content: flex-end;
+
+    .material-symbols-outlined {
+        margin-right: 25px;
+    }
 }
+
 
 .footer_info_information {
     flex: 1;
-    display: flex;
 }
 
 .footer_info_my_account {
