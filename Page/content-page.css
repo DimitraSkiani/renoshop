@@ -21,6 +21,13 @@ ul {
     padding: 0;
 }
 
+/** MEDIA QUERIES **/
+@media (max-width: 992px) {
+    div {
+        background-color: red;
+    }
+}
+
 /** CUSTOM CODE **/
 .footer_info_information_header {
     display: block;
@@ -410,6 +417,7 @@ ul {
 
 .footer_info {
     display: flex;
+    padding-bottom: 50px;
 }
 
 .special_accounts {
