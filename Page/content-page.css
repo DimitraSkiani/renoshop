@@ -496,23 +496,25 @@ ul {
 }
 
 
-.footer_info_information {
+.footer_info_information,
+.footer_info_help,
+.footer_info_contact {
     flex: 1;
 }
 
 .footer_info_my_account {
     flex: 1;
-    display: flex;
+
 }
 
 .footer_info_help {
     flex: 1;
-    display: flex;
+
 }
 
 .footer_info_contact {
     flex: 1;
-    display: flex;
+
 }
 
 .star_container {
